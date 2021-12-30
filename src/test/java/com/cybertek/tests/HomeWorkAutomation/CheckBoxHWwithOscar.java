@@ -39,6 +39,7 @@ public class CheckBoxHWwithOscar {
         passwordBox.sendKeys("test");
         WebElement submitButton = driver.findElement(By.cssSelector("input[type='submit']"));
         submitButton.click();
+
     }
 
     @AfterMethod
