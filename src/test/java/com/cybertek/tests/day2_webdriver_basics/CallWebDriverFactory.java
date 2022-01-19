@@ -1,7 +1,6 @@
 package com.cybertek.tests.day2_webdriver_basics;
 
 import com.cybertek.utilities.WebDriverFactory;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 
 public class CallWebDriverFactory {
