@@ -25,7 +25,7 @@ public class NegativeLoginTest extends TestBase {
     @Test
     public void wrongUsernameTest() {
 
-//        LoginPage loginPage = new LoginPage();
+        LoginPage loginPage = new LoginPage();
 
         loginPage.usernameInput.sendKeys("someusername");
         loginPage.passwordInput.sendKeys("UserUser123");
